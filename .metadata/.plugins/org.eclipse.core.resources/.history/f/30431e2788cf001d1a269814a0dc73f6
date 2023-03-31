@@ -1,0 +1,36 @@
+/*
+    인터페이스 : 약속, 규칙, 규약, 표준
+    설계 최상위 단계
+    초급 계발자 : 인터페이스 사용방법
+    구현부가 없어요 (추상자원)
+    ---------------------------------
+    추상 클래스와 인터페이스 공통점
+    1. 스스로 객체 생성 불가능( new 연산자를 사용 불가)
+    1.1 둘의 차이점 : 추상 클래스(완성+미완성), 인터페이스(모든 것이 미완성)
+    
+    2.사용
+    추상클래스 extends
+    인터페이스 implements
+    
+    class Car extends AbClass { }
+    class Car implements Ia { }
+    
+    추상클래스와 인터페이스 다른점
+    3. 추상클래스 (완성부 코드 일부) 그러나 인터페이스는 전체가 미완성 코드(상수 + default 함수)
+ */
+
+interface Ia{
+   int AGE=100;  //public static final   <- 인터페이스의 자원은 무조건이라 생략
+   String GENDER="남"; //public static final
+   
+   String print(); // {  }(x) public abstract 
+   void message(String str);//{  } public abstract 
+}
+public class Ex03_Interface {
+
+   public static void main(String[] args) {
+      // TODO Auto-generated method stub
+
+   }
+
+}

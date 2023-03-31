@@ -1,0 +1,21 @@
+
+public class Ex06_String_Method {
+
+	public static void main(String[] args) {
+		String str ="hello";
+		String concatstr = str.concat(" world");
+		System.out.println(concatstr);
+		
+		boolean bo = str.contains("ello");  //str.contains("elo");
+		System.out.println(bo);
+		
+		String str2 = "a b c d"; //[a][ ][b][ ][c][ ][d]
+		System.out.println(str2.length()); //7
+		
+		String filename ="hello java world";
+		System.out.println(filename.indexOf("e"));
+		
+
+	}
+
+}

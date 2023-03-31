@@ -1,0 +1,68 @@
+
+class Unit2 {
+	int hitpoint;
+	final int Max_HP;
+	Unit2(int hp) {
+		this.Max_HP = hp;
+	}
+}
+// 인터페이스
+// ~ 할 수 있는 (수리할 수 있는)
+interface Irepairable{}
+
+// 지상유닛, 공중유닛, 건물
+class GroundUnit extends Unit2 {
+	
+	GroundUnit(int hp) {
+		super(hp);
+	}	
+}
+
+class AirUnit extends Unit2 {
+	AirUnit(int hp) {
+		super(hp);
+	}
+}
+
+class CommandCenter {}
+
+// 유닛
+class Tank2 extends GroundUnit {
+	Tank2(int hp) {
+		super(50);
+		this.hitpoint = this.Max_HP;
+	}
+	
+	@Override
+	public String toString() {
+		return "Tank2";
+	}
+}
+
+class Marine2 extends Unit2 {
+
+	Marine2(int hp) {
+		super(50);
+		this.hitpoint = this.Max_HP;
+	}
+	
+	@Override
+	public String toString() {
+		return "Marine2";
+	}
+}
+
+class Scv extends GroundUnit {
+
+	Scv(int hp) {
+		super(50);
+		super.hitpoint = this.Max_HP;
+	}
+	
+}
+
+public class Ex4_Interface_poly {
+	public static void main(String[] args) {
+		
+	}
+}

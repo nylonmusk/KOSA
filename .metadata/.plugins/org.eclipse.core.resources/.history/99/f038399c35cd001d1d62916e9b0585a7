@@ -1,0 +1,27 @@
+
+public class Ex06_String_Method {
+
+	public static void main(String[] args) {
+		String str ="hello";
+		String concatstr = str.concat(" world");
+		System.out.println(concatstr);
+		
+		boolean bo = str.contains("ello");  //str.contains("elo");
+		System.out.println(bo);
+		
+		String str2 = "a b c d"; //[a][ ][b][ ][c][ ][d]
+		System.out.println(str2.length()); //7
+		
+		String filename ="hello java world";
+		System.out.println(filename.indexOf("e"));
+		System.out.println(filename.indexOf("java"));
+		System.out.println(filename.indexOf("개폭망"));
+		// 값이 없으면 -1 리턴 .... 배열에 원하는 단어가 없다
+		// 신문사설 원하는 검색 ... 내가 원하는 단어가 있는지를 ...확인
+		if(filename.indexOf("wo") != -1) {
+			System.out.println("wo 단어라 하나라도 있다");
+		}
+
+	}
+
+}

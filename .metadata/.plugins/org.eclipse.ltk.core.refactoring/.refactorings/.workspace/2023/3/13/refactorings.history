@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;JAVA_BASIC_Ex03_Array_Object&apos; to &apos;JAVA_BASIC_03_Array_Object&apos;&#x0D;&#x0A;- Original element: &apos;JAVA_BASIC_Ex03_Array_Object&apos;&#x0D;&#x0A;- Renamed element: &apos;JAVA_BASIC_Ex03_Array_Object&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;JAVA_BASIC_Ex03_Array_Object&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=JAVA_BASIC_Ex03_Array_Object" name="JAVA_BASIC_03_Array_Object" references="true" stamp="1679880283158" version="1.0"/>
+</session>

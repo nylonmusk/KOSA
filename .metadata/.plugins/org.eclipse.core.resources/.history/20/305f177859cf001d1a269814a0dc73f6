@@ -1,0 +1,13 @@
+import java.io.PrintStream;
+
+Class Ssystem {
+	// System이라는 클래스 생성
+	private static final PrintStream out = new PrintStream(System.out);
+}
+
+public class print {
+
+	public static void main(String[] args) {
+		
+	}
+}

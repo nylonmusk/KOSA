@@ -1,0 +1,19 @@
+
+class Test2{
+	int x = 100;
+	void print() {
+		System.out.println("부모함수 Test2");
+	}
+}
+
+class Test3 extends Test2{
+	int x = 300;
+}
+
+public class Ex05_Inherit_override {
+	public static void main(String[] args) {
+		Test2 test2 = new Test2();
+		System.out.println(test2.x);
+		
+	}
+}

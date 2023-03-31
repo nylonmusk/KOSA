@@ -1,0 +1,12 @@
+import java.io.PrintStream;
+
+public class print {
+
+	public static void main(String[] args) {
+		
+		String message = "Hello, world!";
+	    PrintStream out = System.out;
+	    out.println(message);
+	}
+
+}

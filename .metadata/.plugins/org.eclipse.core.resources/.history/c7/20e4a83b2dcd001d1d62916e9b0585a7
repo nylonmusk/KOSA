@@ -1,0 +1,22 @@
+/*
+String 클래스 (문자를 여러개 담을 수 있는 클래스)
+String 수 많은 함수 가지고 있다 .. 대부분의 데이터는 문자열 (자르고 , 합치고 , 나누고 .. 조합)
+String >> 가지고 있는 일반함수 + static 함수 활용 (15~20) 함수 공부...
+*/
+public class Ex05_String_Class {
+
+	public static void main(String[] args) {
+		String str=""; //초기화
+		String[] strarr = {"abc" , "bbb" , "ccc"};
+		
+		for(String s : strarr) {
+			System.out.println(s);
+		}
+		//사용방법 : int , double 값타입 처럼 부담없이 사용 
+		
+		String st = "홍길동";
+		System.out.println(st.length());
+
+	}
+
+}

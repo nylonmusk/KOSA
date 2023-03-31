@@ -1,0 +1,39 @@
+/*
+게임 : 유닛(unit)
+
+unit : 공통기능(이동좌표, 이동, 멈춘다) : 추상화, 일반화
+unit : 이동방법은 다르다 (이동방법은 unit마다 별도의 구현 필요(반드시))
+
+class Unit{ void move(){}; } // 각각 유닛을 만드는데 반드시 move() 다른 형태로 구현
+// 강제성이 없다 ...
+*/
+
+abstract class Unit {
+	int x,y;
+	void stop() {
+		System.out.println("Unit stop");
+	}
+	
+	abstract void move(int x, int y); // 실행블럭(X) >> 추상함수 >> 미완성 함수
+}
+
+class Tank extends Unit {
+	@Override
+	void move(int x, int y) {
+		this.x = x;
+		this.y = y;
+		System.out.println("Tank 소리내며 이동 : " + this.x + ", " + this.y);
+	}
+	// 필요에 따라서 구체화, 특수화 구현 (고유한 기능)
+	void changeMode() {
+		System.out.println("탱크모드 변환");
+	}
+	
+	void stop() {
+		
+	}
+}
+
+public class Ex02_abstract_class {
+
+}
