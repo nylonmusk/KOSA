@@ -6,7 +6,7 @@ public class Drink {
 	int strawberry;
 	
 	public Drink() {
-		this.apple = 2;
+		this.apple = 3;
 		this.orange = 2;
 		this.grape = 2;
 		this.strawberry = 2;
