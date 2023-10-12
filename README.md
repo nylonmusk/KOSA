@@ -1,2 +1,2 @@
-# DOUZONE
-더존비즈온 5기
+# KOSA
+Java practice
